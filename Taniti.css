@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 300px;
   text-align: center;
   background-color: #ffffff;
   border-bottom: 2px solid #ccc;
@@ -77,4 +77,118 @@ footer {
   padding: 15px;
   background-color: #ffffff;
   border-top: 2px solid #ccc;
+}
+.hero {
+  position: relative;
+  height: 300px;
+  background-image: url("assets/homeBeach.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.183); 
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.historyHero {
+  position: relative;
+  height: 250px;
+  background-image: url("assets/palmTree.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historyHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.08); 
+} 
+
+.historyHero h1 {
+  position: relative;
+  color: white;
+  font-size: 42px;
+  margin: 0;
+}
+
+.historyHero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.tourismHero {
+  position: relative;
+  height: 250px;
+  background-image: url("assets/familybeach.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}   
+
+.tourismHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.08); 
+}
+
+.tourismHero h1 {
+  position: relative;
+  color: white;
+  font-size: 42px;
+  margin: 0;
+}
+.tourismHero h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.faqHero {
+  position: relative;
+  height: 250px;
+  background-image: url("assets/city.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faqHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.08); 
+}
+.faqHero h1 {
+  position: relative;
+  color: white;
+  font-size: 42px;
+  margin: 0;
+}
+.faqHero h1 {
+  font-size: 60px;
+  margin: 0;
 }
